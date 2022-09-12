@@ -9,3 +9,4 @@ matrix pins:
     CS 9
     CLK 8
 # chessClock
+# chessClock
