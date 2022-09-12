@@ -50,7 +50,7 @@ const unsigned char heart[] =
 };
 
 
-LedControl lc=LedControl(10,8,9,1);
+LedControl lc = LedControl(DIN_PIN, CLK_PIN, CS_PIN, 1);
 
 void draw(){
   lc.clearDisplay(0);
